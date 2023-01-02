@@ -1,0 +1,120 @@
+EVALUATING M DATA SET WITH BASELINE MODEL: 
+Found 47128 images belonging to 2 classes.
+Found 15702 images belonging to 2 classes.
+Found 15694 images belonging to 2 classes.
+> COMPILING MODEL: S1M
+Model: "sequential_5"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_14 (Conv2D)          (None, 98, 62, 4)         40        
+                                                                 
+ conv2d_15 (Conv2D)          (None, 96, 60, 4)         148       
+                                                                 
+ flatten_5 (Flatten)         (None, 23040)             0         
+                                                                 
+ dense_14 (Dense)            (None, 256)               5898496   
+                                                                 
+ dense_15 (Dense)            (None, 1)                 257       
+                                                                 
+=================================================================
+Total params: 5,898,941
+Trainable params: 5,898,941
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6935 - accuracy: 0.4989 - val_loss: 0.6933 - val_accuracy: 0.4933
+Epoch 2/30
+2929/2929 [==============================] - 94s 32ms/step - loss: 0.6931 - accuracy: 0.5024 - val_loss: 0.6929 - val_accuracy: 0.5130
+Epoch 3/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6929 - accuracy: 0.5076 - val_loss: 0.6927 - val_accuracy: 0.5153
+Epoch 4/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6926 - accuracy: 0.5152 - val_loss: 0.6925 - val_accuracy: 0.5056
+Epoch 5/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6922 - accuracy: 0.5188 - val_loss: 0.6921 - val_accuracy: 0.5377
+Epoch 6/30
+2929/2929 [==============================] - 94s 32ms/step - loss: 0.6918 - accuracy: 0.5313 - val_loss: 0.6916 - val_accuracy: 0.5556
+Epoch 7/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6914 - accuracy: 0.5320 - val_loss: 0.6913 - val_accuracy: 0.5166
+Epoch 8/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6910 - accuracy: 0.5354 - val_loss: 0.6909 - val_accuracy: 0.5135
+Epoch 9/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6902 - accuracy: 0.5416 - val_loss: 0.6914 - val_accuracy: 0.4962
+Epoch 10/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6898 - accuracy: 0.5394 - val_loss: 0.6890 - val_accuracy: 0.5490
+Epoch 11/30
+2929/2929 [==============================] - 94s 32ms/step - loss: 0.6882 - accuracy: 0.5462 - val_loss: 0.6890 - val_accuracy: 0.5159
+Epoch 12/30
+2929/2929 [==============================] - 94s 32ms/step - loss: 0.6876 - accuracy: 0.5486 - val_loss: 0.6864 - val_accuracy: 0.5676
+Epoch 13/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6854 - accuracy: 0.5479 - val_loss: 0.6861 - val_accuracy: 0.5407
+Epoch 14/30
+2929/2929 [==============================] - 94s 32ms/step - loss: 0.6847 - accuracy: 0.5592 - val_loss: 0.6843 - val_accuracy: 0.5509
+Epoch 15/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6830 - accuracy: 0.5640 - val_loss: 0.6810 - val_accuracy: 0.5786
+Epoch 16/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6798 - accuracy: 0.5659 - val_loss: 0.6845 - val_accuracy: 0.5322
+Epoch 17/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6797 - accuracy: 0.5658 - val_loss: 0.6782 - val_accuracy: 0.5731
+Epoch 18/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6780 - accuracy: 0.5690 - val_loss: 0.6848 - val_accuracy: 0.5394
+Epoch 19/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6766 - accuracy: 0.5696 - val_loss: 0.6781 - val_accuracy: 0.5635
+Epoch 20/30
+2929/2929 [==============================] - 95s 33ms/step - loss: 0.6759 - accuracy: 0.5717 - val_loss: 0.6810 - val_accuracy: 0.5537
+Epoch 21/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6747 - accuracy: 0.5729 - val_loss: 0.6760 - val_accuracy: 0.5676
+Epoch 22/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6728 - accuracy: 0.5809 - val_loss: 0.6840 - val_accuracy: 0.5444
+Epoch 23/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6731 - accuracy: 0.5766 - val_loss: 0.6725 - val_accuracy: 0.5783
+Epoch 24/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6709 - accuracy: 0.5776 - val_loss: 0.6712 - val_accuracy: 0.5832
+Epoch 25/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6701 - accuracy: 0.5827 - val_loss: 0.6700 - val_accuracy: 0.5858
+Epoch 26/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6694 - accuracy: 0.5818 - val_loss: 0.6682 - val_accuracy: 0.5877
+Epoch 27/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6691 - accuracy: 0.5815 - val_loss: 0.6676 - val_accuracy: 0.5899
+Epoch 28/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6678 - accuracy: 0.5844 - val_loss: 0.6682 - val_accuracy: 0.5889
+Epoch 29/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6663 - accuracy: 0.5855 - val_loss: 0.6780 - val_accuracy: 0.5612
+Epoch 30/30
+2929/2929 [==============================] - 95s 32ms/step - loss: 0.6662 - accuracy: 0.5889 - val_loss: 0.6655 - val_accuracy: 0.5890
+> DONE.
+> SAVED MODEL AS: results/models/S1/S1M.h5
+> EXPORTING TRAINING / VALIDATION METRICS AS GRAPHS...
+> EXPORTED: results/models/S1/S1M_Accuracy_Metrics.png
+> EXPORTED: results/models/S1/S1M_Accuracy_Metrics.png
+> EXPORTING TRAINING METRICS AS: results/models/S1/S1M_Training_Metrics.csv
+> PREDICTIONS. TRAINING SET:
+Accuracy: 0.592811
+Precision: 0.587740
+Recall: 0.622401
+F1 score: 0.604574
+Cohens kappa: 0.185610
+ROC AUC: 0.637478
+[[13268 10290]
+ [ 8900 14670]]
+> PREDICTIONS. VALIDATION SET:
+Accuracy: 0.592281
+Precision: 0.587113
+Recall: 0.622995
+F1 score: 0.604522
+Cohens kappa: 0.184543
+ROC AUC: 0.635487
+[[4407 3441]
+ [2961 4893]]
+> PREDICTIONS. TEST SET (UNSEEN DATA):
+Accuracy: 0.596661
+Precision: 0.591653
+Recall: 0.626305
+F1 score: 0.608486
+Cohens kappa: 0.193279
+ROC AUC: 0.638159
+[[4445 3395]
+ [2935 4919]]
+> EXPORTED CONFUSION MATRICES FOR DATA SETS USING BASE PATH: results/models/S1/S1M
+> EXPORTING PREDICTION METRICS AS: results/models/S1/S1M_Prediction_Metrics.csv
+ALL DONE.
