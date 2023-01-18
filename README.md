@@ -18,4 +18,4 @@ https://github.com/SibCode/CoughDetectionAI/blob/main/Guide_for_mock_up_data_gen
 
 Further information:
 
-The objective of the thesis associated with this repository was to test if a model can detect and categorize coughs with and without mask from a single microphone in a waiting room with lots of background noise. From 108 models a total of 28 achieved the targeted accuracy of over 75%. Two models trained with the dataset including all samples achieved accuracies over 98% for both cough detection and classification. The results only contain the generated data other than the models themselves. 
+The objective of the thesis associated with this repository was to test if a model can detect and categorize coughs with and without mask from a single microphone in a waiting room with lots of background noise. From 108 models a total of 28 achieved the targeted accuracy of over 75%. Two models trained with the dataset including all samples achieved accuracies over 98% for both cough detection and classification. The results in this repository only contain the generated data other than the models themselves and does not include the original study data used. 
